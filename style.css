@@ -1,0 +1,228 @@
+* {
+	margin: 0;
+	font-size: 	100%;
+}
+	
+body {
+	background-color: #000;
+	line-height: 1.5;
+}
+
+p {
+	font-size: 1.5rem;
+}
+
+#header-title{
+	font-size: 3rem;
+	color: white;
+	text-align: center;
+	text-decoration: overline;
+}
+
+#black-box {
+	color:#fff !important;
+	background-color:#000 !important;
+}
+
+.wide-nav-icons {
+	width: 100%;
+}
+
+.responsive-pictures {
+	width: 100%;
+	height: auto;
+}
+
+#main {
+	background-color: #000;
+	margin-left: 231px;
+
+}
+
+.sidebar{
+	height:100%;
+	background-color:#222;
+	position: fixed !important;
+	z-index: 1;
+	overflow: auto;
+}
+
+.nav-bar-items{
+	padding:8px 16px;
+	float: left;
+	width: auto;
+	border: none;
+	display: block;
+	outline: 0;
+}
+
+.subheading {
+	font-size: 2rem;
+}
+
+.nav-buttons {
+	display: block;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	color: inherit;
+	background-color: inherit;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+.large-padding {
+	padding:20px 24px !important;
+}
+
+.white-color {
+color: #fff !important;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.icon-center {
+	display: inline-block;
+}
+
+
+.hover-black:hover {
+color: #fff!important;
+background-color:#000!important;
+}
+
+.fixed-width {
+	max-width: 980px;
+}
+
+.wh-txt {
+	color: white;
+}
+
+.container {
+	padding: 0.01em 16px;
+}
+
+.alignment {
+	text-align:justify !important;
+}
+
+.guide-padding {
+	padding-top: 64px !important;
+	padding-bottom: 64px !important;
+}
+
+.auto {
+	margin: 0 auto;
+}
+
+.left-floated-hr {
+	width: 200px;
+	border-top: 1px solid #eee;
+	margin: 20px 0;
+}
+
+.guide-textbox-gray {
+	color: #757575;
+}
+
+.right-floated-hr {
+	float: right;
+	width: 200px;
+	margin: 20px 0;
+}
+
+.cards-container {
+	justify-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card {
+	flex: 0 1 33%;
+	background-color: #000;
+	margin-top: 5px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+.playerprofile-name {
+	color: white;
+}
+
+.playerprofile-text {
+	color: #757575;
+}
+
+
+
+.cards-container {
+	align-items: center;
+}
+
+#lists {
+	background-color: #222;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.topbar {
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+.hide-bar-items {
+	display:none !important;
+}
+
+#small-navbar { 
+	width: 100%;
+	position: absolute;
+	top: 0;
+	background-color: #222;
+	opacity: 0.8;
+}
+
+.bar {
+	background-color: #222;
+}
+
+
+
+.small-navbuttons {
+width: 25% !important;
+}
+
+@media screen and (min-width: 40em) {
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+ 
+    .card {
+        flex: 0 1 calc(33% - 1em);
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
+	#small-navbar {
+		display: inline-block !important;	
+	}
+
+	.sidebar {
+		display: none;
+	} 
+
+	#header-title {
+		padding-top: 1.5em;
+	}
+
+	#main {
+		margin-left: 0;
+	}	
+}
+
